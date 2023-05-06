@@ -2,7 +2,7 @@
 Varun Kanna
 
 * [Introduction](#Introduction)
-* [How I got the Data](#How I got the Data)
+* [How I got the Data](#how-i-got-the-data)
 * [Conclusion](#Conclusion)
 
 
