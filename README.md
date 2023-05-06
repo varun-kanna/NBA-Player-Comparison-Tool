@@ -1,13 +1,12 @@
 # NBA-Player-Stat-API-Web-Scraping
 Varun Kanna
 
-* [Introduction](#Introduction)
-* [How I got the Data](#How I got the Data)
-* [Formatting the Data](##Formatting the Data)
-* [Valid Example](###Valid Example)
-* [Invalid Example](###Invalid Example)
-* [Conclusion](#Conclusion)
-
+* [Introduction](# Introduction)
+* [How I got the Data](# How I got the Data)
+* [Formatting the Data](# Formatting the Data)
+* [Valid Example](# Valid Example)
+* [Invalid Example](# Invalid Example)
+* [Conclusion](# Conclusion)
 
 
 ## Introduction
