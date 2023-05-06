@@ -3,6 +3,9 @@ Varun Kanna
 
 * [Introduction](#Introduction)
 * [How I got the Data](#how-i-got-the-data)
+* [Formatting the Data](#Formatting-the-data)
+* [Valid-Example](#Valid-Example)
+* [#Invalid-Example](#Invalid-Example)
 * [Conclusion](#Conclusion)
 
 
