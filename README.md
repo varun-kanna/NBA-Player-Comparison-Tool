@@ -2,11 +2,11 @@
 Varun Kanna
 
 * [Introduction](#Introduction)
-* [How I got the Data](#SHow I got the Data)
+* [How I got the Data](#How I got the Data)
 * [Formatting the Data](#Formatting the Data)
 * [Valid Example](#Valid Example)
-* [Invalid Example](### Invalid Example)
-* [Conclusion](# Conclusion)
+* [Invalid Example](#Invalid Example)
+* [Conclusion](#Conclusion)
 
 
 
