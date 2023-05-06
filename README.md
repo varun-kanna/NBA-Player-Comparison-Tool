@@ -1,4 +1,14 @@
 # NBA-Player-Stat-API-Web-Scraping
+Varun Kanna
+
+* [Introduction](#Introduction)
+* [How I got the Data](#SHow I got the Data)
+* [Formatting the Data](#Formatting the Data)
+* [Valid Example](#Valid Example)
+* [Invalid Example](### Invalid Example)
+* [Conclusion](# Conclusion)
+
+
 
 ## Introduction
 * In this project, I use Python to help me "scrape" NBA.com stats for every player in the NBA. Specifically, I used the NBA Offical Leaders API to get the statistics of * any player from any season. 
