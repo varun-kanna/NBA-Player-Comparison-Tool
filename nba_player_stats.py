@@ -27,7 +27,7 @@ condition = True
 y_n = input("Hello, would you like to see stats for any player from any year? 'yes' or 'no': ")
 if y_n.lower() == "no":
     condition = False
-if y_n.lower() == "true":
+if y_n.lower() == "yes":
     condition = True
 
 while condition:
@@ -41,16 +41,7 @@ while condition:
     # Setting up the DataFrame
     r = requests.get(url=test_url, headers=headers).json()
     table_headers = r["resultSet"]["headers"]
-    pd.DataFrame(r["resultSet"]["rowSet"], columns=table_headers)
-
-    temp_df1 = pd.DataFrame(r["resultSet"]["rowSet"], columns=table_headers)
-
-    temp_df2 = pd.DataFrame({"Year": [y for i in range((len(temp_df1)))],
-                            "Season_type": [s for i in range((len(temp_df1)))]})
     
-    #The final DataFrame
-    temp_df3 = pd.concat([temp_df2, temp_df1], axis=1)
-
     #Looking through all the available players to find the player we chose
     specific_player = None
     player_input = input("Input the player's stats you want to see (Case Sensitive): ")
