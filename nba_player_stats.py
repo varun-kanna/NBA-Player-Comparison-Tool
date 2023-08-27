@@ -23,14 +23,11 @@ headers =  {
 
 def pick_stats():
         choice = input("\nChoose a statistic to compare between the players:\n\
-        Individual Player Efficency                - EFF\n\
+        Individual Player Efficency                - IPF\n\
         Effective Field Goal Percentage            - EFG\n\
         True Shooting Percentage                   - TS\n").upper().strip()
-                        
-        if choice == 'EFF':
+        if choice == 'IPF':
             return 'individual_player_efficiency' 
-        elif choice == 'UR':
-            return 'usage_rate' 
         elif choice == 'EFG':
             return 'effective_field_goal_percentage'
         elif choice == 'TS':
@@ -116,6 +113,7 @@ def main_menu():
         player1 = players_df[player1_input]
         player2 = players_df[player2_input]
         print(player1)
+        print()
         print(player2)
 
         i = pick_stats()
