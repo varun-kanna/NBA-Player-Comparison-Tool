@@ -5,7 +5,6 @@ Varun Kanna
 * [How I got the Data](#how-i-got-the-data)
 * [Formatting the Data](#Formatting-the-data)
 * [Valid-Example](#Valid-Example)
-* [Invalid-Example](#Invalid-Example)
 * [Conclusion](#Conclusion)
 
 
@@ -34,14 +33,9 @@ To get the specific stats like Points, Rebounds, and Assists, we need to get the
 Now we can go to the fun part. To get any player's statistics, we manipulate the request link to get statistics from any season (ex, 2022-23), and from any season type (Regular Season or Playoffs).
 
 ### Valid Example
-This example is valid because LeBron James indeed played in the 2021-22 Regular Season.
+This example is a valid comparison of LeBron James' and Steph Curry's Individual Player Efficiency in the 2020-2021 Season.
 
-![image](https://user-images.githubusercontent.com/73306137/236642819-e78cf6f1-cf47-432b-ab04-21e83d4bbf82.png)
-
-### Invalid Example
-This example is invalid because LeBron James did not play in the 2021-22 Playoffs.
-
-![image](https://user-images.githubusercontent.com/73306137/236642830-7ec21cfd-18de-4206-be0d-b78ff56f3c15.png)
+![image](![image](https://github.com/varun-kanna/NBA-Player-Comparison-Script/assets/73306137/87d9f0af-8773-4cb3-937a-4e48650a2e67))
 
 
 ## Conclusion
