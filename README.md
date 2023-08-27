@@ -41,6 +41,7 @@ This example is a valid comparison of LeBron James' and Steph Curry's Individual
 ## Conclusion
 * Here, I used Python to scrape NBA.com for statistics on all the players in the NBA using the `requests` library. I then used the `numpy` and `time` libraries to make sure that I wasn't making too many requests. 
 * Then, I used `pandas` to make a dataframe for the statistics of a specific player.
-* I was then able to use dataframes of players to compute statistics and to compare them between players.
+* I was then able to use dataframes of players to compute statistics.
+* With these dataframes, I was able to compare these statistics between players.
 * This project was fun to complete because I can easily get the statistics of any NBA player from either the Regular Season or Postseason without having to lookup their statistics.
 
