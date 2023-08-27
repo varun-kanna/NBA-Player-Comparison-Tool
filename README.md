@@ -1,4 +1,5 @@
-# NBA-Player-Stat-API-Web-Scraping
+# NBA-Player-Comparison-Script
+
 Varun Kanna
 
 * [Introduction](#Introduction)
@@ -7,11 +8,10 @@ Varun Kanna
 * [Valid-Example](#Valid-Example)
 * [Conclusion](#Conclusion)
 
-
 ## Introduction
-* In this project, I use Python to help me "scrape" NBA.com stats for every player in the NBA. Specifically, I used the NBA Offical Leaders API to get the statistics of * any player from any season. 
-* I will go through how I got and used the API to get specific statistics for every player.
-* As an example, I will show a valid example and an invalid example of players. 
+* In this project, I use Python to help me "scrape" NBA.com stats for every player in the NBA. Specifically, I used the NBA Offical Leaders API to get the statistics of any player from any season. 
+* I will go through how I got and used the API to get specific statistics for any player.
+* As an example, I will show the usage of the Individual Player Efficiency on two players.
 
 ## How I got the Data
 We will first look at how I was able to gather the data. If we go to https://www.nba.com/stats/leaders, it should look something similar to this.:
@@ -33,9 +33,9 @@ To get the specific stats like Points, Rebounds, and Assists, we need to get the
 Now we can go to the fun part. To get any player's statistics, we manipulate the request link to get statistics from any season (ex, 2022-23), and from any season type (Regular Season or Playoffs).
 
 ### Valid Example
-This example is a valid comparison of LeBron James' and Steph Curry's Individual Player Efficiency in the 2020-2021 Season.
-
-![image](![image](https://github.com/varun-kanna/NBA-Player-Comparison-Script/assets/73306137/87d9f0af-8773-4cb3-937a-4e48650a2e67))
+This example is a valid comparison of LeBron James' and Steph Curry's Individual Player Efficiency in the 2020-2021 Season. The images are split for convenience.
+![valid_example1](https://github.com/varun-kanna/NBA-Player-Comparison-Script/assets/73306137/28bb9c97-d794-4954-a9bb-1e9f2b98f5f2)
+![valid_example2](https://github.com/varun-kanna/NBA-Player-Comparison-Script/assets/73306137/18f876c6-ca7a-4b41-9d09-fc8199326e6b)
 
 
 ## Conclusion
