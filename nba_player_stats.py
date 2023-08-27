@@ -23,7 +23,7 @@ headers =  {
 
 def pick_stats():
         choice = input("\nChoose a statistic to compare between the players:\n\
-        Individual Player Efficency                - IPF\n\
+        Individual Player Efficiency                - IPF\n\
         Effective Field Goal Percentage            - EFG\n\
         True Shooting Percentage                   - TS\n").upper().strip()
         if choice == 'IPF':
@@ -64,7 +64,7 @@ def effective_field_goal_percentage(player1, player2, player1_season, player2_se
         print(f"{player2.PLAYER[0]}: {player2_efg:.3f}% in {player2_season} had a higher true shooting percentage than {player1.PLAYER[0]}: {player1_efg:.3f}% in {player1_season}.")
 
 def main_menu():
-    print("Lets compare NBA players' stats!")
+    print("Lets compare NBA players' stats!\n")
     condition = True
     while condition:
         # If we want stats from the Playoffs or the Regular Season
@@ -88,7 +88,7 @@ def main_menu():
         player2 = 'https://stats.nba.com/stats/leagueLeaders?LeagueID=00&PerMode=Totals&Scope=S&Season='+player2_season+'&SeasonType='+player2_season_type+'&StatCategory=PTS'
         player2_input = input("Input the player's stats you want to see (Case Sensitive and Space Sensitive): ")
         print("Initializing data...")
-
+        print()
         players = [[player1, player1_input],[player2, player2_input]]
         players_df = {}
         for p in players:
@@ -112,9 +112,9 @@ def main_menu():
 
         player1 = players_df[player1_input]
         player2 = players_df[player2_input]
-        print(player1)
+        print(f"Stats for {player1.PLAYER[0]}:\n {player1}")
         print()
-        print(player2)
+        print(f"Stats for {player2.PLAYER[0]}:\n {player2}")
 
         i = pick_stats()
         if i == "individual_player_efficiency":
