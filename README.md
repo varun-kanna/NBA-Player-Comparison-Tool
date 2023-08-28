@@ -5,7 +5,7 @@ Varun Kanna
 * [Introduction](#Introduction)
 * [How I got the Data](#how-i-got-the-data)
 * [Formatting the Data](#Formatting-the-data)
-* [Running the code](#Running the code)
+* [Running the code](#Running-the-code)
 * [Valid-Example](#Valid-Example)
 * [Conclusion](#Conclusion)
 
