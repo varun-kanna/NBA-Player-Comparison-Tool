@@ -5,6 +5,7 @@ Varun Kanna
 * [Introduction](#Introduction)
 * [How I got the Data](#how-i-got-the-data)
 * [Formatting the Data](#Formatting-the-data)
+* [Running the code](#Running the code)
 * [Valid-Example](#Valid-Example)
 * [Conclusion](#Conclusion)
 
@@ -33,7 +34,8 @@ To get the specific stats like Points, Rebounds, and Assists, we need to get the
 Now we can go to the fun part. To get any player's statistics, we manipulate the request link to get statistics from any season (ex, 2022-23), and from any season type (Regular Season or Playoffs).
 ## Running the code on your computer
 
-### Create a virtual environment
+### Running the code
+Create a virtual environment
 `python -m venv venv`
 For powershell:
 `venv/Scripts/Activate.ps1`
