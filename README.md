@@ -31,6 +31,14 @@ To get the specific stats like Points, Rebounds, and Assists, we need to get the
 
 ## Getting any Player's NBA statistics
 Now we can go to the fun part. To get any player's statistics, we manipulate the request link to get statistics from any season (ex, 2022-23), and from any season type (Regular Season or Playoffs).
+## Running the code on your computer
+
+### Create a virtual environment
+`python -m venv venv`
+For powershell:
+`venv/Scripts/Activate.ps1`
+Install the requirements:
+`pip install -r requirements.txt`
 
 ### Valid Example
 This example is a valid comparison of LeBron James' and Steph Curry's Individual Player Efficiency in the 2020-2021 Season. The images are split for convenience.
