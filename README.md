@@ -35,12 +35,9 @@ Now we can go to the fun part. To get any player's statistics, we manipulate the
 ## Running the code on your computer
 
 ### Running the code
-Create a virtual environment
-`python -m venv venv`
-For powershell:
-`venv/Scripts/Activate.ps1`
-Install the requirements:
-`pip install -r requirements.txt`
+Create a virtual environment: `python -m venv venv`
+For powershell: `venv/Scripts/Activate.ps1`
+Install the requirements: `pip install -r requirements.txt`
 
 ### Valid Example
 This example is a valid comparison of LeBron James' and Steph Curry's Individual Player Efficiency in the 2020-2021 Season. The images are split for convenience.
