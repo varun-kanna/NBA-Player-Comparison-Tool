@@ -1,4 +1,4 @@
-# NBA-Player-Comparison-Script
+# NBA-Player-Comparison-Tool
 
 Varun Kanna
 
